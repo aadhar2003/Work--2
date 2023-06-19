@@ -6,27 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
   </head>
   <body>
-    <div class="con">
-      <!-- SECTION ONE -->
-      <div class="section-one">
-        <!-- NAV BAR -->
-        <div class="nav">
-          <div class="header">
-            <div class="hov">
+    <!-- SECTION ONE -->
+    <div class="section-one">
+      <div class="nav">
+        <div class="header">
+          <div class="hov">
+            <a href="/">
               <span class="jm">J</span><span class="aa">AGRITI</span> <br />
               <span class="jm la">M</span><span class="aa">ALHOTRA</span>
-            </div>
+            </a>
           </div>
-          <nav>
-            <ul class="nav-links">
-              <li><a href="">WORK</a></li>
-              <li><a href="">ABOUT</a></li>
-              <li><a href="" id="Contact">EXPERIENCE</a></li>
-              <li><a href="" target="_blank">CONTACT</a></li>
-            </ul>
-          </nav>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="./work_page.html">WORK</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li class="exp"><a href="#work">EXPERIENCE</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+          <ion-icon name="menu-outline" class="mobile-nav-icon teen"></ion-icon>
+          <ion-icon
+            name="close-outline"
+            class="mobile-nav-icon cross"
+          ></ion-icon>
         </div>
       </div>
     </div>
@@ -62,31 +69,31 @@
         <div class="aw-sub">
           <p class="bold">Overview</p>
           <p class="aw-subtext">
-            <p class="aw-subtext">Built a full marketing tech stack for the</p>
-          <p class="aw-subtext">company, created editorial calendars,</p>
-         <p class="aw-subtext">corporate communications and managed an</p>
-          <p class="aw-subtext">channel social media strategy. Increased</p>
-            <p class="aw-subtext" style="white-space: nowrap;">engagement rates by over 300% and reported</p>
-           <p class="aw-subtext">inbound organic sales of $45K within 6</p>
-         <p class="aw-subtext">months of campaign activation.</p>
-        </p>
+            Built a full marketing tech stack for the<br />
+            company, created editorial calendars,<br />
+            corporate communications and managed an<br />
+            channel social media strategy. Increased<br />
+            engagement rates by over 300% and reported<br />
+            inbound organic sales of $45K within 6<br />
+            months of campaign activation.
+          </p>
         </div>
       </div>
       <!-- Slideshow container -->
       <div class="slideshow-container">
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-          <img src="./img/jjs 2.svg"  />
+          <img src="./img/jjs 2.svg" />
           <div class="text"></div>
         </div>
 
         <div class="mySlides fade">
-          <img src="./img/9.svg"  />
+          <img src="./img/9.svg" />
           <div class="text"></div>
         </div>
 
         <div class="mySlides fade">
-          <img src="./img/3.svg"  />
+          <img src="./img/3.svg" />
           <div class="text"></div>
         </div>
 
@@ -94,40 +101,40 @@
         <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
         <!-- The dots/circles -->
-        <div class="dot-container" >
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
+        <div class="dot-container">
+          <div class="dc">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
         </div>
       </div>
     </div>
     <div class="next-text">
-      <a href=""
-        >next project
-        <span
-          ><svg
+      <a href="">next project </a>
+      <span style="display: block; margin-right: 25px"
+        ><svg
           class="arrowSymbol"
-            id="arrow"
-            width="69"
-            height="68"
-            viewBox="0 0 69 68"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M0.833168 38.2084L52.0486 38.2084L28.524 61.733L34.4998 67.6667L68.1665 34.0001L34.4998 0.333412L28.5661 6.26716L52.0486 29.7917L0.833168 29.7917V38.2084Z"
-              fill="black"
-            />
-          </svg> </span
-      ></a>
-      <p>Talking With Teri</p>
+          id="arrow"
+          width="69"
+          height="68"
+          viewBox="0 0 69 68"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.833168 38.2084L52.0486 38.2084L28.524 61.733L34.4998 67.6667L68.1665 34.0001L34.4998 0.333412L28.5661 6.26716L52.0486 29.7917L0.833168 29.7917V38.2084Z"
+            fill="black"
+          ></path>
+        </svg>
+      </span>
     </div>
     <!-- footer -->
     <div class="footer">
       <div class="footer-first">
         <div class="name">
           <a class="fh" href="">J</a><a class="fh rem" href="">AGRITI</a>
-          <br />
+          <br style="display: revert" />
           <a class="fh lap" href="">M</a><a class="fh rem" href="">ALHOTRA</a>
         </div>
         <div class="f-links">
@@ -145,12 +152,12 @@
           <p id="nl-subtext">
             Join my newsletter for top marketing plans, Ai tools and more
           </p>
-          <div class="data">
-            <input type="email" placeholder="Email" />
+          <form name="submit-to-google-sheet" class="data">
+            <input type="email" name="Email" placeholder="Email" />
             <div class="btn">
-              <button class="button">Subscribe</button>
+              <button class="button" type="submit">Subscribe</button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
 
@@ -189,8 +196,38 @@
             />
           </svg>
         </div>
+        <div class="social-img">
+          <a
+            href="https://www.linkedin.com/in/jagritimalhotra/"
+            target="_blank"
+          >
+            <img src="./img/Vector.png" alt=""
+          /></a>
+        </div>
+        <div class="social-img">
+          <a href="mailto:jagriti24malhotra@gmail.com">
+            <img src="./img/Vector (1).png" alt="" />
+          </a>
+        </div>
+        <div class="social-img">
+          <a
+            href="https://www.instagram.com/mirchimarketing/?hl=en"
+            target="_blank"
+            ><img src="./img/Vector (2).png" alt=""
+          /></a>
+        </div>
       </div>
     </div>
-    <script src="./script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
